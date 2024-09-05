@@ -1,33 +1,138 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="mckc.css">
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Michael Curtiss - Software Engineer</title>
+    <link rel="stylesheet" href="mckc.css">
 </head>
+
 <body>
-    <div class="container">
-        <h1>Welcome to MCKC.dev</h1>
-        <section class="top-content">
-            <div class="floaty-box">
-                <h2>Full Stack Developer</h2>
-            </div>
-            <div class="floaty-box">
-                <h2>Frontend</h2>
-            </div>
-            <div class="floaty-box">
-                <h2>Backend</h2>
-            </div>
-            <div class="floaty-box">
-                <h2>Automation</h2>
-            </div>
-            <div class="floaty-box">
-                <h2>Client Communication</h2>
-            </div>
-            <div class="floaty-box">
-                <h2>Full Stack Developer</h2>
-            </div>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Michael Curtiss</h1>
+        <p>Full Stack Software Engineer</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Grid -->
+    <main class="container">
+
+        <!-- About Section -->
+        <section id="about" class="card">
+            <h2>About Me</h2>
+            <p>
+                I am Michael Curtiss, a Full Stack Software Engineer with over 8 years of experience in software
+                development,
+                including 5+ years working in financial software and 3+ years at a startup development agency.
+                Currently, I am a Senior Java Developer at Mize CPAs, where I lead development
+                projects and write tons of code.
+
+                In addition, I do some freelance work on the side with a specific focus on AI integrations and small to medium sized website development.
+            </p>
         </section>
-    </div>
+
+        <!-- Experience Section -->
+        <section id="experience" class="card">
+            <h2>Experience</h2>
+
+            <article>
+                <h3>Candela Technology</h3>
+                <p><strong>Partner & Head of Development</strong> | Kansas City, MO | Present</p>
+                <ul>
+                    <li>Lead software development projects from concept to deployment, ensuring quality and client
+                        satisfaction.</li>
+                    <li>Manage client relationships, analyze requirements, and oversee technical decision-making.</li>
+                    <li>Develop Docker Compose configurations for dynamic websites (PHP/JavaScript).</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>FIS</h3>
+                <p><strong>Software Engineer</strong> | 5+ Years</p>
+                <ul>
+                    <li>Developed financial software solutions using Java, JavaScript, and other technologies.</li>
+                    <li>Managed complex data transformations and migrations.</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Freelance Work</h3>
+                <p><strong>Full Stack Software Engineer and Project Manager</strong> | 5+ Years</p>
+                <ul>
+                    <li>Developed and deployed custom websites using Kirby CMS for various clients.</li>
+                    <li>Managed complex data transformations and migrations.</li>
+                    <li>Developed and deployed custom AI integrations using OpenAI, Python, JavaScript, and other technologies.</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="card">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Programming Languages (Backend):</strong> Java, PHP, Python, C++, Liquid, Node.js</li>
+                <li><strong>Programming Languages (Frontend):</strong> HTML/CSS, React, vue.js, JavaScript</li>
+                <li><strong>Other Skills:</strong> Kirby CMS, DJango, Git, MAMP, YAML, Liquid, ffmpeg, Linux, AWS, Docker, Nginx, DBA, DevOps</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="card">
+            <h2>Client Projects</h2>
+
+            <article>
+                <h3>Custom PHP CMS (Kirby CMS)</h3>
+                <p>
+                    Built and deployed custom websites using Kirby CMS for various clients. Focused on core CMS features
+                    while ensuring that the websites were scalable and optimized for performance.
+                </p>
+            </article>
+
+            <article>
+                <h3>AI Integration</h3>
+                <p>Developed and deployed custom AI integrations using OpenAI, Python, JavaScript, and other technologies.</p>
+            </article>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="card">
+            <h2>Contact</h2>
+            <p>Want to work together or have any questions? Feel free to reach out!</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Michael Curtiss | Kansas City, MO</p>
+    </footer>
+
 </body>
-<script src="mckc.js"></script>
+
 </html>
