@@ -2,11 +2,18 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Michael Curtiss - Software Engineer</title>
-    <link rel="stylesheet" href="mckc.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Michael Curtiss — Senior Full Stack Software Engineer. Java backend specialist with experience in finance, startups, and AI integrations." />
+    <title>Michael Curtiss — Software Engineer</title>
+
+    <!-- Open Graph (optional, update image/url if you have them) -->
+    <meta property="og:title" content="Michael Curtiss — Software Engineer" />
+    <meta property="og:description" content="Senior Full Stack Software Engineer building dependable, scalable systems and practical AI integrations." />
+    <meta property="og:type" content="website" />
+
+    <link rel="stylesheet" href="mckc.css" />
 </head>
 
 <body>
@@ -28,83 +35,101 @@
         </ul>
     </nav>
 
-    <!-- Main Content Grid -->
-    <main class="container">
+    <main id="main" class="container" role="main" aria-labelledby="main-title">
 
-        <!-- About Section -->
-        <section id="about" class="card">
-            <h2>About Me</h2>
+        <!-- About -->
+        <section id="about" class="card" aria-labelledby="about-title">
+            <h2 id="about-title">About</h2>
             <p>
-                I am Michael Curtiss, a Full Stack Software Engineer with over 8 years of experience in software
-                development,
-                including 5+ years working in financial software and 3+ years at a startup development agency.
-                Currently, I am a Senior Java Developer at Mize CPAs, where I lead development
-                projects and write tons of code.
-
-                In addition, I do some freelance work on the side with a specific focus on AI integrations and small to medium sized website development.
+                I’m Michael Curtiss, a Senior Full Stack Software Engineer who enjoys simplifying complex processes with software.
+                With 8+ years of professional experience across finance, accounting, and startup environments, I focus on
+                dependable backend systems and practical frontend experiences. I enjoy collaborating with stakeholders,
+                writing clear technical documentation, and delivering solutions that scale.
+            </p>
+            <p>
+                Currently I work on Java backend systems and maintain a portfolio of freelance projects that explore AI integrations,
+                automation, and modern web tooling. If your team needs someone who can bridge product requirements and technical execution,
+                let’s talk.
             </p>
         </section>
 
-        <!-- Experience Section -->
-        <section id="experience" class="card">
-            <h2>Experience</h2>
+        <!-- Experience -->
+        <section id="experience" class="card" aria-labelledby="experience-title">
+            <h2 id="experience-title">Experience</h2>
 
-            <article>
-                <h3>Candela Technology</h3>
-                <p><strong>Partner & Head of Development</strong> | Kansas City, MO | Present</p>
+            <article aria-labelledby="mize-title">
+                <h3 id="mize-title">Mize CPAs — Senior Java Developer</h3>
+                <p class="muted">Sep 2024 – Aug 2025</p>
                 <ul>
-                    <li>Lead software development projects from concept to deployment, ensuring quality and client
-                        satisfaction.</li>
-                    <li>Manage client relationships, analyze requirements, and oversee technical decision-making.</li>
-                    <li>Develop Docker Compose configurations for dynamic websites (PHP/JavaScript).</li>
+                    <li>Designed and implemented backend systems in Java with a focus on automation, performance, and reliability.</li>
+                    <li>Worked on API design, SQL integration, and Linux administration while improving technical documentation.</li>
                 </ul>
             </article>
 
-            <article>
-                <h3>FIS</h3>
-                <p><strong>Software Engineer</strong> | 5+ Years</p>
+            <article aria-labelledby="candela-title">
+                <h3 id="candela-title">Candela Technology — Head of Development & Partner</h3>
+                <p class="muted">Mar 2021 – Aug 2024</p>
                 <ul>
-                    <li>Developed financial software solutions using Java, JavaScript, and other technologies.</li>
-                    <li>Managed complex data transformations and migrations.</li>
+                    <li>Led development for 10+ products including web apps, ecommerce platforms, and automation tools.</li>
+                    <li>Managed client relationships, contractors, and technical strategy while contributing hands-on code (JS, PHP, Python, Node, React).</li>
                 </ul>
             </article>
 
-            <article>
-                <h3>Freelance Work</h3>
-                <p><strong>Full Stack Software Engineer and Project Manager</strong> | 5+ Years</p>
+            <article aria-labelledby="fis-title">
+                <h3 id="fis-title">FIS — Programmer Analyst 2</h3>
+                <p class="muted">Jan 2016 – Feb 2021</p>
                 <ul>
-                    <li>Developed and deployed custom websites using Kirby CMS for various clients.</li>
-                    <li>Managed complex data transformations and migrations.</li>
-                    <li>Developed and deployed custom AI integrations using OpenAI, Python, JavaScript, and other technologies.</li>
+                    <li>Backend-heavy development in Java for a large B2B loan servicing web application; supported batch processing and Linux administration.</li>
+                    <li>Gained experience in enterprise tooling, database administration, and legacy integrations (including COBOL).</li>
+                </ul>
+            </article>
+
+            <article aria-labelledby="candela-contract-title">
+                <h3 id="candela-contract-title">Candela Technology — Web Developer (Contract)</h3>
+                <p class="muted">Aug 2025 – Present</p>
+                <ul>
+                    <li>Ongoing contract work delivering client web projects with responsibilities similar to prior Candela engagements.</li>
                 </ul>
             </article>
         </section>
 
-        <!-- Skills Section -->
-        <section id="skills" class="card">
-            <h2>Skills</h2>
+        <!-- Skills -->
+        <section id="skills" class="card" aria-labelledby="skills-title">
+            <h2 id="skills-title">Skills</h2>
+
             <ul>
-                <li><strong>Programming Languages (Backend):</strong> Java, PHP, Python, C++, Liquid, Node.js</li>
-                <li><strong>Programming Languages (Frontend):</strong> HTML/CSS, React, vue.js, JavaScript</li>
-                <li><strong>Other Skills:</strong> Kirby CMS, DJango, Git, MAMP, YAML, Liquid, ffmpeg, Linux, AWS, Docker, Nginx, DBA, DevOps</li>
+                <li><strong>Backend:</strong> Java, Python, PHP, Node.js, Liquid, C++, COBOL</li>
+                <li><strong>Frontend:</strong> JavaScript (vanilla), React, Vue.js, HTML/CSS</li>
+                <li><strong>DevOps & Tools:</strong> Linux administration, Docker, AWS, Git, Nginx, SQL, DBA, MAMP</li>
+                <li><strong>CMS & Frameworks:</strong> Kirby CMS, Django, Laravel</li>
+                <li><strong>Other:</strong> Technical writing, client management, buy/build analysis, YAML, ffmpeg, ClickUp</li>
             </ul>
         </section>
 
-        <!-- Projects Section -->
-        <section id="projects" class="card">
-            <h2>Client Projects</h2>
+        <!-- Projects -->
+        <section id="projects" class="card" aria-labelledby="projects-title">
+            <h2 id="projects-title">Selected Projects</h2>
 
             <article>
-                <h3>Custom PHP CMS (Kirby CMS)</h3>
+                <h3>Enterprise Loan Servicing Web App</h3>
                 <p>
-                    Built and deployed custom websites using Kirby CMS for various clients. Focused on core CMS features
-                    while ensuring that the websites were scalable and optimized for performance.
+                    Contributed backend work on a large B2B loan servicing platform using Java. Focused on reliability, performance,
+                    and supporting complex batch processes and data transformations.
                 </p>
             </article>
 
             <article>
-                <h3>AI Integration</h3>
-                <p>Developed and deployed custom AI integrations using OpenAI, Python, JavaScript, and other technologies.</p>
+                <h3>Custom CMS & Client Websites (Kirby)</h3>
+                <p>
+                    Built and deployed custom client websites with Kirby CMS, focusing on performance, maintainability, and an editor-friendly content model.
+                </p>
+            </article>
+
+            <article>
+                <h3>AI Integrations & Tools</h3>
+                <p>
+                    Designed and deployed AI-powered tools using OpenAI, Python, and JavaScript. Example work includes an image-generation tool integrated into product design workflows.
+                </p>
             </article>
         </section>
 
